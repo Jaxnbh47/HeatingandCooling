@@ -1,15 +1,15 @@
-actualTemp = 80;
+let actualTemp = 80;
 
-desiredTemp = 70;
+let desiredTemp = 70;
 
 if (actualTemp === desiredTemp){
     console.log('Standby');
 }
 
-if (actualTemp > desiredTemp){
+else if (actualTemp > desiredTemp){
     console.log('Run A/C');
 }
 
-if (actualTemp < desiredTemp){
+else if (actualTemp < desiredTemp){
     console.log('Run heat');
 }
